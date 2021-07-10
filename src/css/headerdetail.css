@@ -1,0 +1,32 @@
+.topnav {
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 11;
+  height: 60px;
+  position: fixed;
+  transition: background-color 0.35s ease-in 0s;
+  background: #ffffff;
+  color: rgb(255, 255, 255);
+  border-bottom: none;
+}
+
+.detailP {
+  background-color: #ffffff;
+  position: absolute;
+  width: 223px;
+  height: 25px;
+  left: 56px;
+  top: 10px;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  /* Main */
+
+  color: #201a1c;
+}

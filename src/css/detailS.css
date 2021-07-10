@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+  text-decoration: none;
+  max-width: 380px;
+  width: 100%;
+  margin: 0px auto;
+  top: 10px;
+  padding: 0px 16px 80px;
+}
+
+.donater {
+  text-decoration: none;
+  width: 340px;
+  margin: 0px auto;
+  height: 205px;
+  left: auto;
+  margin-top: 80px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Main */
+
+  color: #201a1c;
+}
+
+.detail {
+  position: absolute;
+  width: 343px;
+  height: 22px;
+  left: 16px;
+  top: 762px;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Main */
+
+  color: #201a1c;
+}
+
+.txt {
+  position: absolute;
+  width: 343px;
+  height: 120px;
+  left: 0px;
+  top: 48px;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  /* Main */
+
+  color: #201a1c;
+}

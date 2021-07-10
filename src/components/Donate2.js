@@ -1,8 +1,9 @@
-import React from 'react';
+import React from 'react'
 import { ReactComponent as Share } from '../assets/share.svg';
-function Donate() {
-  return (
-    <div className="card">
+import '../css/donate2.css'
+function Donate2() {
+    return (
+        <div className="card">
       <p className="title">Total Donasi / Sedekah Terkumpul</p>
       <p className="idr">Rp. 200.000.000,-</p>
       <form>
@@ -69,7 +70,7 @@ function Donate() {
         </button>
       </form>
     </div>
-  );
+    )
 }
 
-export default Donate;
+export default Donate2

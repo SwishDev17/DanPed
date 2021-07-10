@@ -1,0 +1,115 @@
+.totalDonate {
+  position: relative;
+  text-decoration: none;
+  max-width: 380px;
+  width: 200%;
+  margin: 0px auto;
+  top: 70px;
+  padding: 0px 16px 80px;
+
+  background: #f4f9ff;
+}
+
+.jml {
+  position: static;
+  width: 343px;
+  height: 22px;
+  left: 16px;
+  top: 16px;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Main */
+
+  color: #201a1c;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.value {
+  position: static;
+  width: 343px;
+  height: 33px;
+  left: 16px;
+  top: 46px;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* Accent */
+
+  color: #34a898;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.methodPay {
+  position: relative;
+  text-decoration: none;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0px auto;
+  top: 20px;
+  padding: 0px 16px 80px;
+  background-color: #ffffff;
+}
+
+.methodPay p {
+  position: absolute;
+  width: 343px;
+  height: 22px;
+  left: 5px;
+  top: 13px;
+  background-color: #ffffff;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Main */
+
+  color: #201a1c;
+}
+
+.txtMethod {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+
+  position: absolute;
+  width: 343px;
+  height: 54px;
+  left: 0px;
+  top: 51px;
+
+  /* Grey2 */
+
+  border: 1px solid #c6c6d4;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
